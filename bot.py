@@ -45,6 +45,15 @@ async def pm_text(bot, message):
     query = message.text
     response = ai_responses(query)
     await message.reply_text(response)
-    
+
+Client.start()
+print("Bot Started!")
+
+idle()
+
+Client.stop()
+print("Bot Stopped!")
+
+
     
   
