@@ -9,7 +9,7 @@ API_ID = int(environ.get("API_ID"))
 API_HASH = environ.get("API_HASH")
 BOT_TOKEN = environ.get("BOT_TOKEN")
 OPEN_AI_KEY = environ.get("OPEN_AI_KEY")
-START_MSG = "Hi Iam Artificially Intelligente Bot Maded By @MLZ_BOTZ Ask Me Anything I will Give Answers Properly"
+START_MSG = "Hi {} Iam Artificially Intelligente Bot Maded By @MLZ_BOTZ Ask Me Anything I will Give Answers Properly"
 
 Client = Client(name="chat-gpt",
              api_id=API_ID,
