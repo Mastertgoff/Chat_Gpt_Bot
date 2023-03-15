@@ -2,6 +2,8 @@ from os import environ
 from pyrogram import idle
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram import Client, filters, errors, enums
+from urllib import response
+import openai
 
 API_ID = int(environ.get("API_ID"))
 API_HASH = environ.get("API_HASH")
