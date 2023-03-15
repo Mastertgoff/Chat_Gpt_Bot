@@ -19,8 +19,8 @@ Client = Client(name="chat-gpt",
 @Client.on_message(filters.command('start') & filters.private)
 async def start(bot, message):
     buttons = [[
-        InlineKeyboardButton('Oᴡɴᴇʀ', user_id='1957296068'),
-        InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/MaSTeR_filims')
+        InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ", url="https://t.me/MLZ_BOTZ"),
+        InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url="https://t.me/MLZ_BOTZ_SUPPORT")
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply(
