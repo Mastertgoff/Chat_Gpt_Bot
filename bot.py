@@ -40,6 +40,9 @@ def ai_responses(input_text):
   
 @Client.on_message(filters.private & filters.text & filters.incoming)
 async def pm_text(bot, message):
+    query = message.text
+    response = ai_responses(query)
+    await message.reply_text(response)
     
     
   
