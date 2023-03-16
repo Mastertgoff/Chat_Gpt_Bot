@@ -9,7 +9,7 @@ API_ID = int(environ.get("API_ID"))
 API_HASH = environ.get("API_HASH")
 BOT_TOKEN = environ.get("BOT_TOKEN")
 OPEN_AI_KEY = environ.get("OPEN_AI_KEY")
-START_MSG = "Hi {} Iam Artificially Intelligente Bot Maded By @MLZ_BOTZ Ask Me Anything I will Give Answers Properly"
+START_MSG = "Hi {} Iam Artificially Intelligente Bot Maded By @Master_broi Ask Me Anything I will Give Answers Properly"
 
 Client = Client(name="chat-gpt",
              api_id=API_ID,
@@ -22,7 +22,7 @@ Client = Client(name="chat-gpt",
 async def start(bot, message):
     buttons = [[
         InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ", url="https://t.me/MLZ_BOTZ"),
-        InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url="https://t.me/MLZ_BOTZ_SUPPORT")
+        InlineKeyboardButton("OWNER", url="https://t.me/Master_broi")
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply(
